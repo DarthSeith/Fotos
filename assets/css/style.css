@@ -1,0 +1,368 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+color: #000000;
+}
+
+body img{
+max-width:100%;
+}
+
+hr{
+border-top: 1px solid #110F3E !important;
+}
+
+.lista-footer ul {
+list-style: none; /* Remove default bullets */
+}
+
+.lista-footer ul li::before {
+content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+color: #F1D01B; /* Change the color */
+font-weight: bold; /* If you want it to be bold */
+display: inline-block; /* Needed to add space between the bullet and the text */
+width: 1em; /* Also needed for space (tweak if needed) */
+margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+}
+
+.bannertrans:hover .overlay {
+filter: sepia(80%);
+}
+
+
+.topbar{
+height: auto;
+background-color: #221E7C;
+color: #FFFFFF;
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+font-size: 0.9em;
+}
+
+.topbar-items{
+margin: 0 22%;
+}
+
+.rrss ul li{
+display: inline;
+list-style: none;
+margin: 0 3px;
+}
+
+.bg-dark{
+background-color: #110F3E !important;
+}
+
+.ingresar{
+height: auto;
+margin: 0 -10% 0 -2%;
+padding: 0 0 0 4%;
+}
+
+.menu-principal{
+height: 170px;
+}
+
+li.nav-item{
+border-bottom: 1px solid #000000;
+margin: 0 10px;
+}
+
+li.nav-item :hover{
+background-color:#221E7C;
+color: #FFFFFF !important;
+}
+
+.nav-link{
+color: #000000 !important;
+}
+
+.nav-item.active a.nav-link{
+color: #FFFFFF !important;
+}
+
+
+li.nav-item.active{
+background-color:#221E7C;
+color: #FFFFFF !important;
+}
+
+.sr-only{
+color: #FFFFFF !important;
+}
+
+.destacados{
+/*height: auto;
+background-image: url("../img/bg_slide.png");
+background-size:auto;
+background-position: center;*/
+}
+
+.buscador{
+height: auto;
+background: #110F3E;
+color: #FFFFFF;
+padding: 2.5%;
+}
+
+.buscador-top{
+border-bottom: 1px dashed #FFFFFF;
+padding-bottom: 5%;
+}
+button.buscador-icono{
+padding: 5px 10px 6px 10px;
+margin-left: 0px;
+border-radius: 0px 3px 3px 0px;
+background: #1BA8F1;
+color: #FFFFFF;
+border: none;
+}
+.buscador-bottom{
+padding-top: 5%;
+}
+.buscador-input{
+width: 70%;
+font-size: 14px;
+font-style: italic;
+height: 35px;
+padding: 4px 4px 4px 14px;
+border: none;
+border-radius: 3px 0px 0px 3px;
+}
+
+.btn-primary{
+width: 70% !important;
+background: #1BA8F1 !important;
+}
+
+.col-md-4{
+padding-right: 0px !important;
+padding-left: 11px !important;
+}
+
+.slide{
+}
+
+.carousel-control-next-icon{
+background-image: url("../img/flecha-left.png") !important;
+width: 50px;
+height: 50px;
+}
+
+.carousel-control-prev-icon{
+background-image: url("../img/flecha-right.png") !important;
+width: 50px;
+height: 50px;
+}
+
+
+.texto-titulo{
+color: #110F3E;
+}
+
+.apoyo{
+height: 700px;
+margin: 0 0 3% 0;
+background-image: url("../img/bg_home_01.jpg");
+background-size:cover;
+background-position: center;
+}
+
+.titulo-apoyo{
+padding: 3% 0 0 25%;
+}
+
+.titulo-iniciativas{
+padding: 3% 0 0 0;
+margin: 2% 0 0 -15%;
+}
+
+.iniciativas-left{
+margin: 0 0 3% -3%;
+}
+
+.banners-iniciativas{
+margin: 5% 0 0 -15%;
+}
+
+.titulo-transparencia{
+padding: 3% 0 0 25%;
+}
+
+.transparencia{
+height: auto;
+background-image: url("../img/bg_home2.jpg");
+background-size:cover;
+background-position: center;
+}
+
+.banners-transparencia{
+padding: 7% 0 9% 0;
+}
+
+
+.cajas-apoyo{
+padding: 5% 0 0 0;
+}
+
+
+.navbar-brand{
+font-size: 30px;
+}
+
+footer{
+height: auto;
+}
+
+
+.footer-top{
+padding: 1% 0 0 0;
+}
+
+.footer-bottom{
+height: auto;
+background-color: #221E7C;
+color: #FFFFFF;
+font-size: 0.9em;
+}
+
+.lista-footer{
+padding: 5% 0 0 30%;
+}
+
+.datos-footer{
+line-height: 16px;
+padding: 4% 0 0 3%;
+}
+
+.tepuedeinteresar{
+padding: 0 0 0 10%;
+}
+
+.logo-footer{
+/*margin: 0 0 0 30%;*/
+}
+
+
+/*::::::::::MEDIA QUERIES - 1470PX - LG:::::::::::::::*/
+@media (max-width:1470px) {
+
+
+.topbar-items{
+margin: 0 11%;
+}
+
+
+.buscador{
+padding: 0 0 0 1.5%;
+}
+
+.buscador-top h4{
+font-size: 10px;
+}
+
+.buscador-top p{
+font-size: 10px;
+}
+
+.buscador-bottom h4{
+font-size: 10px;
+}
+
+.buscador-bottom p{
+font-size: 10px;
+}
+
+}
+
+/*::::::::::MEDIA QUERIES - 1200PX - LG:::::::::::::::*/
+@media (max-width: 1200px) {
+
+.topbar-items{
+margin: 0 8%;
+}
+
+.menu-principal{
+height: auto;
+}
+
+
+}
+
+
+/*::::::::::MEDIA QUERIES - 767PX - LG:::::::::::::::*/
+@media (max-width: 767px) {
+
+.topbar{
+font-size: 0.8em;
+}
+
+.topbar-items{
+margin: 0%;
+}
+
+.destacados{
+height: auto;
+background: rgba(255,255,255,1.00);
+}
+
+
+.buscador{
+padding: 5%;
+margin-bottom: 2%;
+}
+
+.buscador-top h4{
+font-size: 1.5em;
+}
+
+.buscador-top p{
+font-size: 1em;
+}
+
+.buscador-bottom h4{
+font-size: 1.5em;
+}
+
+.buscador-bottom p{
+font-size: 1em;
+}
+
+.apoyo{
+height: auto;
+}
+
+.titulo-iniciativas{
+padding: 3% 0 0 0;
+margin: 2% 0 0 0;
+}
+
+.iniciativas-left{
+display: none;
+}
+
+.iniciativas-right{
+text-align: center;
+}
+
+.banners-iniciativas{
+margin: 5% 0 0 0;
+}
+
+.transparencia{
+text-align: center;
+}
+
+
+}
